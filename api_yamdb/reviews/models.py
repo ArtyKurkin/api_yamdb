@@ -9,6 +9,9 @@ User = get_user_model()
 
 
 class Category(models.Model):
+    """
+    Category model
+    """
     name = models.CharField(
         'Название категории',
         max_length=256
